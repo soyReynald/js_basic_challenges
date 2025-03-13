@@ -38,7 +38,9 @@ const challengedArray = ["Colors", "Red", "Black"];
 challengedArray[challengedArray.length] = "user";
 var htmlToAppend = "";
 challengedArray.forEach (data => {
-    htmlToAppend += `<p>${data}</p>`;
+    htmlToAppend += `<p>
+    ${data}
+    </p>`;
 });
 document.querySelector(".result-2.const").innerHTML = htmlToAppend;
 document.querySelector(".result-2.const").previousElementSibling.innerHTML += "Array showcase";
