@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz challenge</title>
+    <style>
+        #headers {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        #information {
+            display: grid;
+            grid-auto-flow: column;
+            grid-gap: 264px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+    <!-- "Here will be shown the result to the sum" -->
+    <div class="result-1"></div>
+
+    <!-- Const challenge -->
+    <h1>Title of the challenge: </h1>
+    <div class="result-2"></div>
+    <!-- Tasks from the university-->
+    <div id="matrix">
+        <div id="container">
+            <div id="headers"></div>
+            <div id="information"></div>
+        </div>
+    </div>
+    <script type="text/javascript"> 
+        const challengesClass = ["sum", "const"]; // ...
+    
+        //* Setting up which challenge I am working on
+        document.querySelector(".result-2").classList.add(challengesClass[1]);
+    </script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

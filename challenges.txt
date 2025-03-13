@@ -1,0 +1,6 @@
+-/ University tasks.
+
+
+-/ Practice JavaScript basic challenges
+1- Sum
+2- Const and arrays without errors in JavaScript
